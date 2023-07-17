@@ -7,14 +7,14 @@ font-size: 12px;
 
 .menu{
 list-style:none;
-border:1px solid #c0c0c0;
+border:1px solid #9dd633;
 float:left;
 }
 
 .menu li{
     position:relative;
     float:left;
-    border-right:1px solid #c0c0c0;
+    border-right:1px solid #395a03;
     }
 
 .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
