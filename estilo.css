@@ -10,35 +10,88 @@ list-style:none;
 border:1px solid #9dd633;
 float:left;
 }
-
-.menu li{
-    position:relative;
-    float:left;
-    border-right:1px solid #395a03;
-    }
-
-.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
-
-.menu li a:hover{
-background:#461717;
-color:#ffffff44;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
+html,body{
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.menu li  ul{
-    position:absolute;
-    top:25px;
-    left:0;
-    background-color:#fff;
-    display:none;
-    }
+body{
+    margin-left: 10px;
+}
 
-.menu li:hover ul, .menu li.over ul{display:block;}
+#imagem_fundo{
+    background: url("slogan_agua.jpg");
+    background-repeat: no-repeat;
+    position:relative;
+    text-align:center;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+}
 
-.menu li ul li{
-    border:1px solid #c0c0c0;
-    display:block;
-    width:150px;
-    }
+#titulo{
+    color: lightseagreen;
+    padding-top:15%;
+    font-size: 60px;
+    line-height: 0.2;
+}
+
+#subtitulo{
+    color: lightseagreen;
+    border-top: 10px solid pink;
+    margin-left:30%;
+    margin-right:30%;
+    text-shadow: 2px black;
+    font-size:50px;
+}
+
+.acao{
+    color: lightseagreen;
+    border: 2px solid pink;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+#projeto{
+    padding: 20px;
+    clear: both;
+}
+
+.titulo2{
+    text-align: center;
+    text-shadow: mediumaquamarine;
+}
+
+#imagem_esquerda{
+    float: left;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.texto{
+    float: left;
+    text-align: justify;
+    padding: 15px;	
+}
+
+#aulas{
+    clear: both;
+    padding-left:20px;
+    padding-right:10px;
+}
+
+#video{
+    clear:both;
+    padding: 15px;
+}
+
+.coluna {
+    padding: 15px;
+    float: left;
+   }
+
+.dois{
+    width: 40%;
+    text-align: justify;
+}
