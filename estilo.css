@@ -68,7 +68,7 @@ a {
 
 
 .hero{
-    background-image: url(../imagem/ods6.jpg);
+    background-image: url(../imagem/infografico_agua.jpg);
     background-color: #cccccc;
     height: 55vh;
     background-position: center;
@@ -344,21 +344,6 @@ figcaption{
     padding: 0;
 }
 
-
-.contato a{
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: #cccccc;
-}
-
-form{
-    width: 80%;
-    min-width: 25rem;
-    max-width: 60rem;
-    background-color: var(--primary-color);
-    color: #FFF3EF;
-    font-size: 1.4rem;
-    margin-bottom: 2rem;
     
 }
 
@@ -400,9 +385,3 @@ textarea{
     flex-basis: 30vh;
 }
 
-.footer{
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-}
-}
