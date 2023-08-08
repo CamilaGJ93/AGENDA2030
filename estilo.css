@@ -74,7 +74,7 @@ a:hover{
 
 
 #inicio {
-  background-image:url(../tartaruga.jpg);
+  background-image:url('../tartaruga.jpg');
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
