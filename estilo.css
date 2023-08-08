@@ -260,6 +260,62 @@ figcaption{
     
 }
 
+.projetosCard{
+    flex-basis: 30vh;
+    border: 1px solid #fff3ef8c;
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+}
+
+
+.projetosCardContent{
+    color:#FFF3EF;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.imagensCard{
+    width: 100%;
+    height: auto;
+    max-width: contain;
+    max-height: contain;
+    display: block;
+    border-radius: 1.3rem;
+    margin: 0;
+    
+}
+
+.dicasCard{
+    flex-basis: 30vh;
+    border: 1px solid #fff3ef8c;
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+}
+
+
+.dicasCardContent{
+    color:#FFF3EF;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.imagensCard{
+    width: 100%;
+    height: auto;
+    max-width: contain;
+    max-height: contain;
+    display: block;
+    border-radius: 1.3rem;
+    margin: 0;
+    
+}
+
+
+
+
+
 .Subtitulo_branco{
     color: white;
     font-size: 2.5rem;
@@ -322,31 +378,6 @@ figcaption{
     color: #cccccc;
 }
 
-
-.contatoContainer{
-    display: flex;
-    flex-basis: 150vh;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 2rem;
-    gap: 1rem;
-}
-
-.contato p{
-    color: #fff3ef8c;
-    font-size: 1.3rem;
-    padding-bottom: 0;
-    margin:1rem 0;
-}
-
-.contato ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-    
-}
-
 fieldset{
     border: none;
     padding: 0;
@@ -365,16 +396,6 @@ textarea{
     border: none;
     padding: .5rem;
     margin: .5rem 0;
-}
-
-.btnContato{
-    background-color: #003672;
-    color: #FFF3EF;
-    cursor:pointer;
-    border: none;
-    font-size: 1.5rem;
-    padding: 1.5rem 4rem;
-    border-radius: 1.5rem;
 }
 
 .mapa{
