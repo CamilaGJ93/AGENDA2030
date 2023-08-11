@@ -189,17 +189,17 @@ a {
     background-color: #e02b34;
 }
 
-.infograficoContainer{
+.dadosContainer{
     display: flex;
     justify-content: center;
     padding: 1.5rem;
 }
 
-.infograficoContainerBasis{
+.dadosContainerBasis{
     flex-basis: 60vh;
 }
 
-.infografico{
+.dados{
     width: 100%;
     height: auto;
     max-width: contain;
